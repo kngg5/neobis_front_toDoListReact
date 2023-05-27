@@ -153,12 +153,18 @@ input[type=text] {
     cursor: pointer;
     color: white;
     border: 1px solid white;
+    
+    
 }
-
+.todo_item {
+    position: relative;
+    
+}
 .actions {
     display: flex;
     align-items: center;
-    margin-left: 6rem;
+    position: absolute;
+    right: 1rem
     
 }
 
@@ -176,14 +182,18 @@ input[type=text] {
 
 .checkbox-business {
     margin-right: 1rem;
-    width: 1rem;
+    width:.95rem;
+    height: .95rem;
     border: 2px solid #127de0;
     border-radius: .28rem;
+    
 }
 
 .checkbox-personal {
     margin-right: 1rem;
-    width: 1rem;
+    width: .95rem;
+    height: .95rem;
     border: 2px solid #e310c3;
     border-radius: .28rem;
+    
 }
